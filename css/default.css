@@ -1,0 +1,41 @@
+﻿/*
+MUSTAFA YASAR OZKAN - 05442844054
+ATLAS ENERJI -  YAZILIM SORUMLUSU
+*/
+body {font-family: 'Oswald', sans-serif;color: #fff;background-color: #1A237E;text-shadow: 1px 1px #1A237E !important;}
+body a {color: #fff;font-size: 16px;}
+body a:hover {color: #454545}
+/*cover slider*/
+html,body,.bgCover,.bgShine {top: 0;bottom: 0;left: 0;right: 0;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;}
+.bgCover {position:fixed;background-image: url(../images/slider/bg-1.jpg);}
+.bgShine {position:fixed;background-color: rgba(100, 100, 100, 0.7);}
+/*common class*/
+.container {position: absolute;top: 0;bottom: 0;left: 0;right: 0;height: auto;margin-top:40px;}
+/*atlas logo*/
+.logo  { width: 425px; height: auto; text-align: left !important; }
+.logo > a > img,.logo > div  { float: left !important; }
+.logo > div  { margin-top: 0px; margin-left: 10px; }
+.logo > div > span { display: inline-block; clear: both; }
+.logo > div > .big { font-size: 36px; margin-top: 2px; margin-bottom: 10px;font-weight: 700; }
+.logo > div > .small { font-size: 22px; font-weight: 400; }
+/*atlas menu*/
+.navBody { text-align: center !important;margin-top: 50px !important;margin-bottom: 40px !important;display: block }
+.navBody  > ul > li { display: inline-block }
+.navBody  > ul > li > a { color: #fff; padding: 0px 10px; font-size: 22px; font-weight: 400; display: block; border-right: 1px solid #fff; }
+.navBody  > ul > li > a:hover { color: #ccc }
+.navBody  > ul > li > a.last { border: 0px }
+/*module*/
+.pageView { margin: 0px 0px 0px 0px;padding: 25px 25px;background-color: rgba(0, 102, 255, 0.50); }
+.pageView { box-shadow: 0px 0px 25px rgba(0, 102, 255, 0.50); margin-bottom: 30px; border-radius: 10px 10px; }
+.pageView img { margin-bottom: 15px; }
+.pageView * { font-size: 22px; line-height: 32px;}
+.pageView ul { padding-left: 30px  }
+.pageView ul li { list-style: circle; margin-bottom: 5px; }
+.pageView h1,.pageView h1 > strong { font-size: 28px !important; font-weight: 700 }
+/*title*/
+h1.titles {margin-top:200px;display:block;height: auto;font-family: 'Pacifico', cursive;, cursive;font-size: 60px;font-weight:400;margin-bottom:10px}
+/*boostrap - forms*/
+.form-group input, .form-group select, .form-group textarea { background: transparent; font-size: 16px; color: #fff; }
+.form-group option{ background: transparent; font-size: 16px; color: #000; }
+/*galery*/
+.galery > img {float: left;margin-left:10px;margin-bottom:10px;width:530px}
